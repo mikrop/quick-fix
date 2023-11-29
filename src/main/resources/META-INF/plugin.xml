@@ -14,9 +14,8 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
-  ]]></description>
+        Zkopíruje zkompilované .class do výsledného zip souboru
+    ]]></description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -26,9 +25,9 @@
 
     <actions>
         <action id="ClassCopier.VersionControl.Toolbar"
-                class="com.github.mikrop.quickfix.CopyClassFiles"
-                text="Copy .class files"
-                description="Copying .class files into location of changed files"
+                class="com.github.mikrop.quickfix.CopyClassAction"
+                text="Vytvořit soubor hotfixu"
+                description="Zkopíruje zkompilované .class do výsledného zip souboru"
                 icon="/icon/system-package-icon.png">
             <add-to-group group-id="ChangesViewPopupMenu" anchor="after" relative-to-action="ChangesView.Shelve"/>
             <add-to-group group-id="ChangesViewToolbar" anchor="last"/>
