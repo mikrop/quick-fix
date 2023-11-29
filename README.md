@@ -1,8 +1,12 @@
 # Quick-Fix
 ### Postup instalace:
 
-Klávesovou zkratkou Ctrl+Alt+Shift+S do nastavení. Přejít do sekce "Plugins", kde je potřeba kliknout na ozubené kolečko 
-viz. ![Changes](/screenshots/quick-fix-install.png "Jak nainstalovat")
+Po stažení souboru [quick-fix-1.0-SNAPSHOT.zip](https://github.com/mikrop/quick-fix/blob/main/quick-fix-1.0-SNAPSHOT.zip)
+je potřeba stisknout klávesovou zkratkou Ctrl+Alt+Shift+S kterou přejdete do "Nastavení".
+Následně do sekce "Plugins", kde je potřeba kliknout na ozubené kolečko a vybrat položku "Install Plugin from Disk..." 
+viz. screenshot 
+
+![Changes](/screenshots/quick-fix-install.png "Jak nainstalovat")
 
 ### Důležité:
 Před vlastní tvorbou hotfixu je potřeba mít "načisto" překompilované class soubory.
